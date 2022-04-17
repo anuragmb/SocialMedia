@@ -1,0 +1,27 @@
+.top__portion{
+    display: flex;
+}
+.left__img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.main__box{
+    border: 1px solid #333;
+    border-radius: 10px;
+}
+.control__section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(34, 52, 52);
+}
+.post__imges{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.post__img{
+    border-radius: 20px;
+}

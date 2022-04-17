@@ -1,0 +1,17 @@
+.main__division{
+  display: flex;
+}
+
+.left{
+  flex: 1;
+  background-color: aliceblue;
+  position: sticky;
+}
+.right{
+  flex: 1;
+  background-color: antiquewhite;
+}
+.middle{
+  flex:3;
+  background-color: rgb(234, 237, 237);
+}

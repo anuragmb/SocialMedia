@@ -1,0 +1,44 @@
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 550px;
+    height: 20px;
+    align-items: center;
+    margin-top: 10px;
+    justify-content:space-around
+}
+
+span{
+    position: absolute;
+    top: 3px;
+    left: 330px;
+    color: #fff;
+    background-color: red;
+    border-radius: 40%;
+    font-size: 15px;
+    width:15px;
+    height: 15px;
+    font-weight: 500;
+    font-size: 12px;
+}
+.msg__count{
+    position: absolute;
+    top: 4px;
+    left: 420px;
+    color: #fff;
+    background-color: red;
+    border-radius: 40%;
+    font-size: 15px;
+    width: 10px;
+}
+.job__count{
+    position: absolute;
+    top: 4px;
+    left: 500px;
+    color: #fff;
+    background-color: red;
+    border-radius: 40%;
+    font-size: 15px;
+    width: 10px;
+}

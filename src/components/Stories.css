@@ -1,0 +1,17 @@
+.stories{
+    overflow-x: scroll;
+    overflow: visible;
+    overflow-y: hidden;
+    display: flex;
+}
+.each__stories{
+    overflow-x: scroll;
+    overflow: visible;
+    overflow-y: hidden;
+    display: flex;
+}
+.story__img{
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+}

@@ -1,0 +1,22 @@
+.profile{
+    border: 2px solid #333;
+    border-radius:15px ;
+    align-items: center;
+    text-align: center;
+}
+.profile__img{
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+}
+button{
+    background: none;
+    width: 100%;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: rgb(244, 153, 153);
+}
