@@ -1,17 +1,15 @@
 .stories{
-    overflow-x: scroll;
-    overflow: visible;
-    overflow-y: hidden;
+    overflow: auto;
     display: flex;
-}
-.each__stories{
     overflow-x: scroll;
-    overflow: visible;
-    overflow-y: hidden;
-    display: flex;
+    border: 1px solid #333;
 }
 .story__img{
     width: 50%;
     height: 50%;
     border-radius: 50%;
+}
+.each__stories:hover{
+    width: 180%;
+    height: 180%;
 }
