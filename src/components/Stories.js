@@ -5,7 +5,7 @@ function Stories(){
     const [resdata,setData]=useState([]);
     
     useEffect(()=>{
-        axios.get('https://jsonplaceholder.typicode.com/photos').then((response)=>{
+        axios.get('https://jsonplaceholder.typicode.com/photos/?_limit=10').then((response)=>{
             setData(response.data)
         })
         
