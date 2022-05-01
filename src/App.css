@@ -1,17 +1,20 @@
+body{
+  background-color: rgb(220, 218, 218);
+}
 .main__division{
   display: flex;
 }
 
 .left{
   flex: 1;
-  background-color: aliceblue;
+  background-color: rgb(220, 218, 218);
   position: sticky;
 }
 .right{
   flex: 1;
-  background-color: antiquewhite;
+  background-color: rgb(220, 218, 218);;
 }
 .middle{
   flex:3;
-  background-color: rgb(234, 237, 237);
+  background-color: rgb(220, 218, 218);;
 }

@@ -1,7 +1,7 @@
 .stories{
     overflow: auto;
     display: flex;
-    overflow-x: scroll;
+    overflow-x: hidden;
     border: 1px solid #333;
 }
 .story__img{
